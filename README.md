@@ -1,25 +1,47 @@
-# Jogo de Adivinhação
+# Jogo de AdivinhaÃ§Ã£o
 
 ![](https://imgur.com/NarVtfC.gif)
 
-## Introdução 
+## IntroduÃ§Ã£o 
 
-Um jogo onde o jogador precisa adivinhar um número aleatório 
+Um jogo onde o jogador precisa adivinhar um nÃºmero aleatÃ³rio 
 (entre 1, 19) dado um certo limite de tentativas.
 
-## Seleçao de dificuldade 
+## SeleÃ§ao de dificuldade 
 
-O número de tentativas corresponde a dificuldade selecionada!
+O nÃºmero de tentativas corresponde a dificuldade selecionada!
 
 ## Como utilizar
 
 <ol>
-<li>Clone o repositório ou baixe o código fonte.</li>
-<li>Abra o terminal ou o prompt de comando e navegue até a pasta raiz.</li>
-<li>Utilize o comando abaixo para restaurar as dependências do projeto.</li>
+<li>Clone o repositÃ³rio ou baixe o cÃ³digo fonte.</li>
+<li>Abra o terminal ou o prompt de comando e navegue atÃ© a pasta raiz.</li>
+<li>Utilize o comando abaixo para restaurar as dependÃªncias do projeto.</li>
 </ol>
+
+```
+dotnet restore
+```
+
+4. Em seguida, compile a soluÃ§Ã£o utilizando o comando:
+
+```
+dotnet build --configuration Release
+```
+
+5. Para executar o projeto compilando em tempo real
+
+```
+dotnet run --project Calculadora.ConsoleApp
+```
+
+6. Para executar o arquivo compilado, navegue atÃ© a pasta ./Calculadora.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
+
+```
+Calculdora.ConsoleApp.exe
+```
 
 ## Requisitos 
 
 - 
-    .NET SDK (recomendado .NET 8.0 ou superior) para compilação e execução do projeto.
+    .NET SDK (recomendado .NET 8.0 ou superior) para compilaÃ§Ã£o e execuÃ§Ã£o do projeto.
